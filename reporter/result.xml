@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Insuranse paget est" timestamp="2022-07-11T21:34:15" time="15.682" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Insuranse paget est"/>
+      <property name="capabilities" value="chrome.103_0_5060_114.windows"/>
+      <property name="file" value=".\test\specs\example.e2e.ts"/>
+    </properties>
+    <testcase classname="chrome.103_0_5060_114.windows.Insuranse_paget_est" name="should navigate to the login page" time="2.666">
+      <system-out><![CDATA[
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/url - {"url":"https://demo.guru99.com/"}
+RESULT: {"url":"https://demo.guru99.com/"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.103_0_5060_114.windows.Insuranse_paget_est" name="should navigate to the main page" time="4.721">
+      <system-out><![CDATA[
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element - {"using":"css selector","value":"[href=\"http://demo.guru99.com/insurance/v1/index.php\"]"}
+RESULT: {"using":"css selector","value":"[href=\"http://demo.guru99.com/insurance/v1/index.php\"]"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/d2e6fa41-7291-4772-af96-e131da2f5b04/click - {}
+RESULT: {}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element - {"using":"css selector","value":"#email"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/elements - {"using":"css selector","value":"#email"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/elements - {"using":"css selector","value":"#email"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/elements - {"using":"css selector","value":"#email"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/elements - {"using":"css selector","value":"#email"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element - {"using":"css selector","value":"#email"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/562902f4-7f2f-4fad-9310-39a2a03bef93/clear - {}
+RESULT: {}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/562902f4-7f2f-4fad-9310-39a2a03bef93/value - {"text":"startupbzns@gmail.com"}
+RESULT: {"text":"startupbzns@gmail.com"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/cba8ffa9-dedb-41ca-bac4-6186d442a246/clear - {}
+RESULT: {}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/cba8ffa9-dedb-41ca-bac4-6186d442a246/value - {"text":"2237056a"}
+RESULT: {"text":"2237056a"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element - {"using":"css selector","value":".btn.btn-default[value=\"Log in\"]"}
+RESULT: {"using":"css selector","value":".btn.btn-default[value=\"Log in\"]"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/cf7b115b-162b-4208-9a72-b72c0d7446a6/click - {}
+RESULT: {}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element - {"using":"css selector","value":"#newquote"}
+RESULT: {"using":"css selector","value":"#newquote"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/41c14f6b-79bb-445c-b159-35aa555a2cf2/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.103_0_5060_114.windows.Insuranse_paget_est" name="should fill insurance form" time="8.294">
+      <system-out><![CDATA[
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element - {"using":"css selector","value":"#quotation_breakdowncover"}
+RESULT: {"using":"css selector","value":"#quotation_breakdowncover"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/cc6b7bb9-4700-405c-852f-700da9e3e335/elements - {"using":"css selector","value":"option"}
+RESULT: {"using":"css selector","value":"option"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/3806baa9-151a-4816-96c0-f733ffc7570f/click - {}
+RESULT: {}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element - {"using":"css selector","value":"#quotation_windscreenrepair_t[value=\"Yes\"]"}
+RESULT: {"using":"css selector","value":"#quotation_windscreenrepair_t[value=\"Yes\"]"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/9129a40c-645b-442e-9627-69279b08bb04/click - {}
+RESULT: {}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element - {"using":"css selector","value":"[name=\"incidents\"]"}
+RESULT: {"using":"css selector","value":"[name=\"incidents\"]"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/c11078ca-0aa9-4bbc-91c4-4c0999949851/clear - {}
+RESULT: {}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/c11078ca-0aa9-4bbc-91c4-4c0999949851/value - {"text":"Road crash"}
+RESULT: {"text":"Road crash"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element - {"using":"css selector","value":"[name=\"registration\"]"}
+RESULT: {"using":"css selector","value":"[name=\"registration\"]"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/471d928f-d130-4549-a1cd-3eb84bf543fe/clear - {}
+RESULT: {}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/471d928f-d130-4549-a1cd-3eb84bf543fe/value - {"text":"Lviv region"}
+RESULT: {"text":"Lviv region"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element - {"using":"css selector","value":"[name=\"mileage\"]"}
+RESULT: {"using":"css selector","value":"[name=\"mileage\"]"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/878cf4a0-201d-4586-86ed-fa7462272af5/clear - {}
+RESULT: {}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/878cf4a0-201d-4586-86ed-fa7462272af5/value - {"text":"75 000км"}
+RESULT: {"text":"75 000км"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element - {"using":"css selector","value":"[name=\"value\"]"}
+RESULT: {"using":"css selector","value":"[name=\"value\"]"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/e9cf520c-5c1e-4f10-b577-1569cc127571/clear - {}
+RESULT: {}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/e9cf520c-5c1e-4f10-b577-1569cc127571/value - {"text":"$25 000"}
+RESULT: {"text":"$25 000"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element - {"using":"css selector","value":"#quotation_vehicle_attributes_parkinglocation"}
+RESULT: {"using":"css selector","value":"#quotation_vehicle_attributes_parkinglocation"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/6d668510-1168-4200-8aca-bf9f0dc78b60/elements - {"using":"css selector","value":"option"}
+RESULT: {"using":"css selector","value":"option"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/c27a4e55-cb3c-49a9-bcf4-91606e6a929a/click - {}
+RESULT: {}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element - {"using":"css selector","value":"#quotation_vehicle_attributes_policystart_1i"}
+RESULT: {"using":"css selector","value":"#quotation_vehicle_attributes_policystart_1i"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/9a1df599-1f1f-4d73-bcc7-2155eecc5cac/elements - {"using":"css selector","value":"option"}
+RESULT: {"using":"css selector","value":"option"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/b669599f-ee49-4589-8056-715b9a9e6a6b/click - {}
+RESULT: {}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element - {"using":"css selector","value":"#quotation_vehicle_attributes_policystart_2i"}
+RESULT: {"using":"css selector","value":"#quotation_vehicle_attributes_policystart_2i"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/cd2b6baa-073d-480c-8eec-ce99ad3f93fa/elements - {"using":"css selector","value":"option"}
+RESULT: {"using":"css selector","value":"option"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/57ca9b43-727e-4f4d-bda2-1c0295ac5929/click - {}
+RESULT: {}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element - {"using":"css selector","value":"#quotation_vehicle_attributes_policystart_3i"}
+RESULT: {"using":"css selector","value":"#quotation_vehicle_attributes_policystart_3i"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/84f9a81b-31a9-4518-906b-2cbbedf2e5b0/elements - {"using":"css selector","value":"option"}
+RESULT: {"using":"css selector","value":"option"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/82d1e7a6-bfc8-4990-a1f3-c58b142aeaf2/click - {}
+RESULT: {}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element - {"using":"css selector","value":"[value=\"Save Quotation\"]"}
+RESULT: {"using":"css selector","value":"[value=\"Save Quotation\"]"}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/element/e3c0e2a1-0518-4304-bf22-585475f9f889/click - {}
+RESULT: {}
+COMMAND: POST /session/9ee6ed66b634fea203d566da0f559482/url - {"url":"https://demo.guru99.com/insurance/v1/new_quotation.php"}
+RESULT: {"url":"https://demo.guru99.com/insurance/v1/new_quotation.php"}
+COMMAND: DELETE /session/9ee6ed66b634fea203d566da0f559482 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

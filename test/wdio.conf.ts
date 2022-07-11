@@ -163,7 +163,10 @@ export const config: Options.Testrunner = {
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: ['spec',
     ['junit', {
-        outputDir: './reporter'
+        outputDir: './reporter',
+        outputFileFormat: function(options){
+            return `result.xml`
+        }
     }]
 ],
 
