@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Insuranse paget est" timestamp="2022-07-11T21:15:49" time="20.663" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Insuranse paget est"/>
+      <property name="capabilities" value="chrome.103_0_5060_114.win32"/>
+      <property name="file" value=".\test\specs\example.e2e.ts"/>
+    </properties>
+    <testcase classname="chrome.103_0_5060_114.win32.Insuranse_paget_est" name="should navigate to the login page" time="2.611">
+      <system-out><![CDATA[
+COMMAND: navigateTo - {"url":"https://demo.guru99.com/"}
+RESULT: undefined
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.103_0_5060_114.win32.Insuranse_paget_est" name="should navigate to the main page" time="10.384">
+      <system-out><![CDATA[
+COMMAND: findElement - {"using":"css selector","value":"[href=\"http://demo.guru99.com/insurance/v1/index.php\"]"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-1"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#email"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":"#email"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":"#email"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":"#email"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":"#email"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":"#email"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":"#email"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":"#email"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":"#email"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":"#email"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":"#email"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":"#email"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":"#email"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":"#email"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":"#email"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#email"}
+RESULT: undefined
+COMMAND: elementClear - {"elementId":"ELEMENT-3"}
+RESULT: undefined
+COMMAND: elementSendKeys - {"elementId":"ELEMENT-3","text":"startupbzns@gmail.com"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#password"}
+RESULT: undefined
+COMMAND: elementClear - {"elementId":"ELEMENT-4"}
+RESULT: undefined
+COMMAND: elementSendKeys - {"elementId":"ELEMENT-4","text":"2237056a"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":".btn.btn-default[value=\"Log in\"]"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-5"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#newquote"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-6"}
+RESULT: undefined
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.103_0_5060_114.win32.Insuranse_paget_est" name="should fill insurance form" time="7.661">
+      <system-out><![CDATA[
+COMMAND: findElement - {"using":"css selector","value":"#quotation_breakdowncover"}
+RESULT: undefined
+COMMAND: findElementsFromElement - {"elementId":"ELEMENT-7","using":"css selector","value":"option"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-10"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#quotation_windscreenrepair_t[value=\"Yes\"]"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"[name=\"incidents\"]"}
+RESULT: undefined
+COMMAND: elementClear - {"elementId":"ELEMENT-13"}
+RESULT: undefined
+COMMAND: elementSendKeys - {"elementId":"ELEMENT-13","text":"Road crash"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"[name=\"registration\"]"}
+RESULT: undefined
+COMMAND: elementClear - {"elementId":"ELEMENT-14"}
+RESULT: undefined
+COMMAND: elementSendKeys - {"elementId":"ELEMENT-14","text":"Lviv region"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"[name=\"mileage\"]"}
+RESULT: undefined
+COMMAND: elementClear - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: elementSendKeys - {"elementId":"ELEMENT-15","text":"75 000км"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"[name=\"value\"]"}
+RESULT: undefined
+COMMAND: elementClear - {"elementId":"ELEMENT-16"}
+RESULT: undefined
+COMMAND: elementSendKeys - {"elementId":"ELEMENT-16","text":"$25 000"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#quotation_vehicle_attributes_parkinglocation"}
+RESULT: undefined
+COMMAND: findElementsFromElement - {"elementId":"ELEMENT-17","using":"css selector","value":"option"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-20"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#quotation_vehicle_attributes_policystart_1i"}
+RESULT: undefined
+COMMAND: findElementsFromElement - {"elementId":"ELEMENT-25","using":"css selector","value":"option"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-34"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#quotation_vehicle_attributes_policystart_2i"}
+RESULT: undefined
+COMMAND: findElementsFromElement - {"elementId":"ELEMENT-38","using":"css selector","value":"option"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-41"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#quotation_vehicle_attributes_policystart_3i"}
+RESULT: undefined
+COMMAND: findElementsFromElement - {"elementId":"ELEMENT-51","using":"css selector","value":"option"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-56"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"[value=\"Save Quotation\"]"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-83"}
+RESULT: undefined
+COMMAND: navigateTo - {"url":"https://demo.guru99.com/insurance/v1/new_quotation.php"}
+RESULT: undefined
+COMMAND: deleteSession - {}
+RESULT: undefined
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
